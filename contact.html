@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- metadata -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- page title -->
+  <title>Uptown Taco</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/odin-0.5.0.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel=icon href=img/uptownyellow.png>
+</head>
+
+
+
+
+  <!-- start making your grid here -->
+
+<header>
+
+<div class="row">
+
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4"><h1><img src="img/uptownyellow.png" alt="uptown taco" /></h1></div>
+  <div class="col-sm-4"></div>
+  </div>
+
+<section>
+
+  <div class="row">
+    <div class="col-sm-3"><h2> <a href="index.html">Home</a></h2></div>
+      <div class="col-sm-3"><h2><a href="menu.html">Menu</a></h2></div>
+      <div class="col-sm-3"><h2><a href="locations.html">Locations</a></h2></div>
+      <div class="col-sm-3"><h2><a href="contact.html">Contact Us</a></h2></div>
+    </div>
+
+</section>
+<div class="row">
+  <div class="col-sm-12"></div>
+</div>
+</header>
+
+<main>
+  <section class="menu">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Subscribe to our email list and get free queso!</h1>
+      <p>
+        Email us at uptowntaco@gmail.com!
+      </p>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-sm-12">
+  <p>
+<form class="" action="thanks.html" method="post">
+  Name:
+  <input type="text" name="name"><br>
+  Address:
+  <input type="text" name="address"><br>
+  City:
+  <input type="text" name="city"><br>
+  State:
+  <input type="text" name="State" size="2">
+  Zip:
+  <input type="text" name="zip" size="5" ><br>
+  Submit:
+  <input type="submit" value="Submit">
+</form>
+  </p>
+  </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+
+<div class="row">
+  <div class="col-sm-12"><a href="#"><h2><img src="img/facebook.png" alt="facebook" /></a><a href="https://twitter.com/uptowntaco"><img src="img/twitter.png" alt="twitter" /></a><a href="https://www.instagram.com/uptowntaco/"><img src="img/instagram.png" alt="instagram" /></a></h2></div>
+</div>
+
+<section class="dark">
+<div class="row">
+  <div class="col-sm-12">&copy; 2016 Uptown Taco. All rights reserved. By Ladson D.</div>
+</div>
+</section>
+
+</footer>
+
+
+
+
+  <!-- include any javascript below this line -->
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 6000,
+        autoplayHoverPause: true,
+        items : 1,
+        loop : true,
+        margin : 10,
+        nav : false,
+        dots: true
+    })
+   })
+  </script>
+</body>
+</html>
